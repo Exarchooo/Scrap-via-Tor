@@ -33,7 +33,7 @@ How to install:
 2) Download MrMagic.ZIP
 3) Unzip
 4) *In the folder where you unzipped the zip*  Click the explorer's path --> CMD --> pip install requirements.txt
-5)Open Tor and connect to the network.
+5) Open Tor and connect to the network.
 6) Open MrMagic.exe
 7) Scrap
 
