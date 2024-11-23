@@ -72,5 +72,7 @@ Mullvad send me a cash for this ad please.
 
 
 I encourage you to report problems.
+
 *Feel free to contribute  <3*
+
 If the program satisfies your needs and you have saved money on buying a proxy, please consider a small donation to: buymeacoffee.com/Exarchooo
