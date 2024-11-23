@@ -46,6 +46,7 @@ Missed component via terminal - pip install 'component'
 No results despite no errors - copy the link from gecko (firefox) to your browser.
 If there are still no results, it means you should use a less demanding syntax.
 Blocked page - geolocation blocker or advanced captcha or drm.
+App may freeze or doesn't work in more than 1 scrap, so then close and open again
 Note: In central/eastern Europe, most of the servers hosting the tor network are in Germany, so you will usually have a German IP.
 This is random, so geo-blocking can be annoying. Despite scraping again, you may have the same country's IP again. 
 
@@ -70,6 +71,6 @@ Of course, it's useless on a tor web, but if you *must*  then I recommend mullva
 Mullvad send me a cash for this ad please.
 
 
-I encourage you to report problems and contribution the project.
-
+I encourage you to report problems.
+*Feel free to contribute  <3*
 If the program satisfies your needs and you have saved money on buying a proxy, please consider a small donation to: buymeacoffee.com/Exarchooo
