@@ -98,7 +98,7 @@ class WebScraperApp:
     
     def create_widgets(self):
         # Labels and Entry widgets for user inputs
-        tk.Label(self.root, text="Insert a phrase to search:").grid(row=0, column=0, padx=10, pady=5)
+        tk.Label(self.root, text="Insert a phrase to search:").grid(row=0, column=0, padx=10, pady=5)    #Blank space to search everything, which means scrap whole site
         self.phrase_entry = tk.Entry(self.root, width=50)
         self.phrase_entry.grid(row=0, column=1, padx=10, pady=5)
         
