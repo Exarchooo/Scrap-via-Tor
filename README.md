@@ -7,6 +7,7 @@ By using the Tor network, you don't need paid and unreliable proxies.
 The program allows advanced searching by phrase, header, date range and (many!) websites in one search. 
 
 Pros:
+
 - Free
 - Advanced search syntax
 - Anonymity
@@ -14,7 +15,8 @@ Pros:
 - Low detection rate
 
 Cons:
-- Average speed
+
+- Average speed (Selenium need to scroll down to click 'load more results')
 - If the site has a geolocation blocker, the program will not bypass it
 - Works only with duckduckgo engine
 - Interface from the 20th century
@@ -40,20 +42,24 @@ How to install:
 
 Troubleshooting:
 
-Missed component via terminal - pip install 'component'
-No results despite no errors - copy the link from gecko (firefox) to your browser. If there are still no results, it means you should use a less demanding syntax.
-Blocked page - geolocation blocker or advanced captcha or drm. Note: In central/eastern Europe, most of the servers hosting the tor network are in Germany, so you will usually have a German IP. This is random, so geo-blocking can be annoying. Despite scraping again, you may have the same country's IP again. 
+Missed component via terminal - pip install 'component'  
+No results despite no errors - copy the link from gecko (firefox) to your browser.
+If there are still no results, it means you should use a less demanding syntax.
+Blocked page - geolocation blocker or advanced captcha or drm.
+Note: In central/eastern Europe, most of the servers hosting the tor network are in Germany, so you will usually have a German IP.
+This is random, so geo-blocking can be annoying. Despite scraping again, you may have the same country's IP again. 
 
 Other: update firefox, tor, check tor's connection, check port in tor, install Gecko Driver, change file locations, just try to experiment.
 
 More advanced:
-The anti-captcha and uBlock tools are a bit experimental, they have small tests. You can remove the related lines from the python file and try to run via terminal.
+The anti-captcha and uBlock tools are a bit experimental, they have small tests.
+You can remove the related lines from the python file and try to run via terminal.
 
 Privacy:
 
 If the Tor connection is interrupted, the program will stop working.
 Your Tor identity is renewed with each page while scraping. 
-Example: duckduckgo showed 3 results;
+Example: duckduckgo showed 3 results:
 123.com - New identity
 123.com/todaysnews/losangeles - New identity
 321.com - New identity
@@ -61,7 +67,7 @@ New identity = new IP and proxy
 
 If you're freaky about your anonymity because you scrapping 'big fishes' pages, you can use vpn, app will work normally.
 Of course, it's useless on a tor web, but if you *must*  then I recommend mullvad with daita, no logs, kill switch, quantum resistant.
-Mullvad send me a cash for this ad.
+Mullvad send me a cash for this ad please.
 
 
 I encourage you to report problems and contribution the project.
