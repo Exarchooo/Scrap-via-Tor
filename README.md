@@ -7,35 +7,35 @@ By using the Tor network, you don't need paid and unreliable proxies.
 The program allows advanced searching by phrase, header, date range and (many!) websites in one search. 
 
 Pros:
-Free
-Advanced search syntax
-Anonymity
-Ease of use
-Low detection rate
+- Free
+- Advanced search syntax
+- Anonymity
+- Ease of use
+- Low detection rate
 
 Cons:
-Average speed
-If the site has a geolocation blocker, the program will not bypass it
-Works only with duckduckgo engine
-Interface from the 20th century
+- Average speed
+- If the site has a geolocation blocker, the program will not bypass it
+- Works only with duckduckgo engine
+- Interface from the 20th century
 
 
 Requirements:
 
-Tor Browser
-Mozilla Firefox
-Python
+- Tor Browser
+- Mozilla Firefox
+- Python
 
 
 How to install:
 
-Click on the right side of this page 'Release'
-Download MrMagic.ZIP
-Unzip
-*In the folder where you unzipped the zip*  Click the explorer's path --> CMD --> pip install requirements.txt
-Open Tor and connect to the network.
-Open MrMagic.exe
-Scrap
+1) Click on the right side of this page 'Release'
+2) Download MrMagic.ZIP
+3) Unzip
+4) *In the folder where you unzipped the zip*  Click the explorer's path --> CMD --> pip install requirements.txt
+5)Open Tor and connect to the network.
+6) Open MrMagic.exe
+7) Scrap
 
 
 Troubleshooting:
