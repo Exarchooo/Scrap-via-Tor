@@ -118,7 +118,7 @@ class WebScraperApp:
         self.sites_entry = tk.Entry(self.root, width=50)
         self.sites_entry.grid(row=4, column=1, padx=10, pady=5)
         
-        # Button to start the scraping process
+        # Button to start the scrapping process
         self.start_button = tk.Button(self.root, text="Start Scraping", command=self.start_scraping)
         self.start_button.grid(row=5, column=0, columnspan=2, pady=20)
     
@@ -193,7 +193,6 @@ class WebScraperApp:
 
             messagebox.showinfo("Result", f"Scraping completed. Results saved in {output_filename}.")
 
-# Main execution block
 if __name__ == "__main__":
     root = tk.Tk()
     app = WebScraperApp(root)
