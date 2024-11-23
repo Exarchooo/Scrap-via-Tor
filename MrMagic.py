@@ -61,7 +61,6 @@ def fetch_links(query, start_date, end_date, driver):
 
     return links
 
-# Spider (separate file)
 class PageSpider(Spider):
     name = "page_spider"
     
