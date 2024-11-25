@@ -72,12 +72,19 @@ You can remove the related lines from the python file and try to run via termina
 Privacy:
 
 If the Tor connection is interrupted, the program will stop working.
+
 Your Tor identity is renewed with each page while scraping. 
+
 Example: duckduckgo showed 3 results:
+
 123.com - New identity
+
 123.com/todaysnews/losangeles - New identity
+
 321.com - New identity
+
 New identity = new IP and proxy
+
 
 If you're freaky about your anonymity because you scrapping 'big fishes' pages, you can use vpn, app will work normally.
 Of course, it's useless on a tor web, but if you *must*  then I recommend mullvad with daita, no logs, kill switch, quantum resistant.
