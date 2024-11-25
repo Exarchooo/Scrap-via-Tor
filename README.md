@@ -42,20 +42,31 @@ How to install:
 
 Troubleshooting:
 
-Missed component via terminal - pip install 'component'  
+Missed component via terminal - pip install 'component'
+
 No results despite no errors - copy the link from gecko (firefox) to your browser.
+
 If there are still no results, it means you should use a less demanding syntax.
+
 Blocked page - geolocation blocker or advanced captcha or drm. Or sign in requirment like in Linkedin or Twitter.
-App may freeze or doesn't work in more than 1 scrap, so then close and open again
+
+App may freeze or doesn't work in more than 1 scrap, so then close and open again.
+
 Note: For example; in central/eastern Europe, most of the servers hosting the tor network are in Germany, so you will usually have a German IP.
+
 In other countries can be other issue. Not in the United States. Read more about *Tor's Directory Authorities* to understand. 
+
 This is random, so geo-blocking can be annoying. Despite scraping again, you may have the same country's IP again.
+
 You can also add to the code more agressive lines like a "scrap this page no matter of the number of attempts", however it will slow down a procces of scraping.
+
 
 Other: update firefox, tor, check tor's connection, check port in tor, install Gecko Driver, change file locations, just try to experiment.
 
+
 More advanced:
 The  uBlock tool is a bit experimental, tested on small scraps.
+
 You can remove the related lines from the python file and try to run via terminal.
 
 Privacy:
@@ -76,6 +87,7 @@ Mullvad send me a cash for this ad please.
 I encourage you to report problems.
 
 *Feel free to contribute  <3*
+
 Anti-Captcha solution is needed.
 
 If the program satisfies your needs and you have saved money on buying a proxy, please consider a small donation to: buymeacoffee.com/Exarchooo
